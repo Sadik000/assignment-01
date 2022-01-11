@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    font-family: 'Yeseva One', cursive;
+    border-left: 5px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 40px;
+}
+.orange-color{
+    color: aqua;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding: 7%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(aqua,hotpink);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 5px;
+}
+.dream-big{
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+#full-stack-experience{
+    background-color:antiquewhite;
+    border-image-slice: 1;
+}
+#web-dev-experience{
+    background-color:mistyrose;
+    border-image-slice: 1;
+}
+#web-dev-experienc-pat{
+    background-color:bisque;
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    background-color: beige;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 15px;
+}
+.footer-bottom{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
